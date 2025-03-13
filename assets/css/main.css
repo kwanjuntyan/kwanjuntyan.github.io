@@ -560,11 +560,12 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  filter: brightness(1.1) contrast(1.2);
 }
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, var(--background-color), transparent 50%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -791,7 +792,7 @@ section,
   cursor: pointer;
   display: inline-block;
   padding: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   margin: 0 10px;
   line-height: 1;
@@ -836,7 +837,7 @@ section,
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
-  padding: 15px;
+  padding: 100px;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
@@ -853,8 +854,7 @@ section,
   bottom: 10px;
   text-align: center;
   display: inline-block;
-  left: 0;
-  right: 0;
+  right:0;
   font-size: 16px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
