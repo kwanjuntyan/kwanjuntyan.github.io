@@ -1266,3 +1266,69 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+/*--------------------------------------------------------------
+# Starter Section Section
+--------------------------------------------------------------*/
+.starter-section {
+  /* Add your styles here */
+}
+
+/* Fairytale Section */
+.fairytale {
+  padding-left: 20px; /* Adjust this value as needed for proper alignment */
+}
+
+.fairytale .service-item {
+  position: relative;
+}
+
+.fairytale .service-item .icon {
+  background: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid var(--accent-color);
+  margin-right: 20px;
+}
+
+.fairytale .service-item .icon i {
+  color: var(--contrast-color);
+  font-size: 24px;
+  line-height: 0;
+}
+
+.fairytale .service-item:hover .icon {
+  background: var(--surface-color);
+}
+
+.fairytale .service-item:hover .icon i {
+  color: var(--accent-color);
+}
+
+.fairytale .service-item .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.fairytale .service-item .title a {
+  color: var(--heading-color);
+}
+
+.fairytale .service-item .title a:hover {
+  color: var(--accent-color);
+}
+
+.fairytale .service-item .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.fairytale .section-title {
+  padding-left: 15px; /* Match the services section title padding */
+}
